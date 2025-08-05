@@ -1,0 +1,11 @@
+Metric,Value / Status
+Total CPU Usage (Processing + Decision),0.758 sec (SENSOR + PROCESSED tuples)
+Total Network Usage,428.8 KB
+Tuple Flow,SENSOR → processing → decision → DISPLAY
+Energy Consumption (Cloud),197763.89 J
+Energy Consumption (Fog1),76819.60 J
+Energy Consumption (Fog2),200000.00 J
+Loop Delay,884.47 ms
+Sensor Frequency,Every 1 sec (DeterministicDistribution)
+Tuple Size (Network),500–5000 bytes per tuple
+Module Mapping,"processing → fog1, decision → cloud"
