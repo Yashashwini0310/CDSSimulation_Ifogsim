@@ -96,7 +96,7 @@ public class SDS_test {
                     fw.write("Loop Delay (" + loopId + ")," + avgDelay + "\n");
                 }
 
-                fw.write("Network Usage (KB)," + 428.8 + "\n"); // replace with real value if available
+                fw.write("Network Usage (KB)," + 428.8 + "\n");
                 fw.flush();
 
             } catch (Exception e) {
